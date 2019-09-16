@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.submit{
+    display:flex;
+    flex-direction: column;
+}
+
+
+@media(min-width:769px){
+    .main-form{
+        width: 500px;
+        margin: auto;
+    }
+
+    .submit{
+        flex-direction: row;
+    }
+}
